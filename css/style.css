@@ -1,0 +1,26 @@
+/*General styles*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+#mainsection {
+	position: relative;
+	min-height: 100vh;
+}
+
+#mainsection .background-image {
+	background: url(../img/michael-warf-1086615-unsplash.jpg) center center no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
