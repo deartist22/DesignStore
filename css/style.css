@@ -1,5 +1,7 @@
 /*General styles*/
 
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display:400,700');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +10,10 @@
 
 html {
 	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Playfair Display', serif;
 }
 
 
@@ -27,6 +33,7 @@ html {
 }
 
 #chooseus {
+
 	background-color: #181817
 }
 
@@ -46,6 +53,10 @@ html {
 #chooseus h3,
 #chooseus .fa-gem {
 	color: #f0b54b;
+}
+
+#chooseus h3 {
+	font-size: 1.1rem;
 }
 
 #chooseus p {
