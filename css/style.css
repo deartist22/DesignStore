@@ -25,3 +25,12 @@ html {
 	height: 100%;
 	background-size: cover;
 }
+
+#chooseus p {
+	font-size: .7rem;
+}
+
+#chooseus .fa-hammer,
+#chooseus .fa-trade-federation {
+	font-size: 3.5rem;
+}
