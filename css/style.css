@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
 #gallery .images {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-template-rows: 300px 300px;
+	grid-template-rows: 350px 350px;
 }
 
 #gallery .images .item1 {
@@ -150,3 +150,31 @@ h1, h2, h3, h4, h5, h6{
 		grid-row: 5 / 6;
 	}
 } 
+
+
+#collection {
+	background-color: #f9fafc;
+}
+
+#collection .container .icon::before,
+#collection .container .icon::after {
+	content: '';
+	display: inline-block;
+	width: 20%;
+	border-top: 1px solid #212529;
+}
+
+#collection .items{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 370px 370px;
+	grid-gap: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+	#collection .items {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 200px 200px 200px 200px 200px;
+	}
+}
