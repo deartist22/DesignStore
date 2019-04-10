@@ -29,11 +29,11 @@ h1, h2, h3, h4, h5, h6{
 	left: 0;
 	width: 100%;
 	height: 100%;
+	z-index: -1;
 	background-size: cover;
 }
 
 #chooseus {
-
 	background-color: #181817
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6{
 #chooseus .fa-trade-federation,
 #chooseus .fa-hand-holding-usd {
 	font-size: 3.5rem;
-	padding: 53px 0 0 20px;
+	padding: 40px 0 0 20px;
 	color: white;
 }
 
@@ -187,4 +187,37 @@ h1, h2, h3, h4, h5, h6{
 		grid-template-columns: 1fr;
 		grid-template-rows: 200px 200px 200px 200px 200px;
 	}
+}
+
+
+#designers {
+	position: relative;
+	min-height: 100vh;
+}
+
+#designers .background-image {
+	background: url(../img/venveo-609390-unsplash1.jpg) center center no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-size: cover;
+}
+
+
+#designers .container .icon::before,
+#designers .container .icon::after {
+	content: '';
+	display: inline-block;
+	width: 20%;
+	border-top: 1px solid #f0b54b;
+}
+
+
+#designers h2,
+#designers h3,
+#designers .fa-gem {
+	color: #f0b54b;
 }
