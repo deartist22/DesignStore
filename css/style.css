@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 }
 
+@media only screen and (max-width: 768px) {
+	
+}
+
 #gallery .images {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
@@ -155,7 +159,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 #collection {
-	background-color: #f9fafc;
+	background-color: #F2F2F2;
 }
 
 #collection .container .icon::before,
