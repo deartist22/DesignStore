@@ -64,8 +64,10 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 }
 
+#chooseus .fa-pencil-alt,
 #chooseus .fa-hammer,
-#chooseus .fa-trade-federation {
+#chooseus .fa-trade-federation,
+#chooseus .fa-hand-holding-usd {
 	font-size: 3.5rem;
 	padding: 53px 0 0 20px;
 	color: white;
@@ -169,6 +171,10 @@ h1, h2, h3, h4, h5, h6{
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 370px 370px;
 	grid-gap: 15px;
+}
+
+#collection .items .viewimage .info {
+	line-height: 1.2rem;
 }
 
 @media only screen and (max-width: 768px) {
