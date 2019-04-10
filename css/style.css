@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 350px;	
-	grid-gap: 10px;
+	grid-gap: 20px;
 }
 
 #designers .design-images .dimages{
