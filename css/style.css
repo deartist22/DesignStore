@@ -309,3 +309,33 @@ h1, h2, h3, h4, h5, h6{
 	grid-column: 4 / 5; 
 	grid-row: 1 / 2;
 }
+
+@media only screen and (max-width: 768px) {
+	#projects .projects-images {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 350px 350px 350px 350px;
+		grid-gap: 10px;
+	}
+
+	#projects .projects-images .pro1 {
+		grid-column: 1 / 2; 
+		grid-row: 1 / 2;
+	}
+
+	#projects .projects-images .pro2 {
+		grid-column: 1 / 2; 
+		grid-row: 2 / 3;
+	}
+
+	#projects .projects-images .pro3 {
+		grid-column: 1 / 2; 
+		grid-row: 3 / 4;
+	}
+
+	#projects .projects-images .pro4 {
+		grid-column: 1 / 2; 
+		grid-row: 4 / 5;
+	}
+
+}
