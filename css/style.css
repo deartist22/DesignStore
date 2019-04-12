@@ -366,3 +366,18 @@ p, small, .nav-link {
 	font-size: .8rem;
 
 }
+
+
+#footer h3 {
+	font-size: 1rem;
+}
+
+#footer p {
+	font-size: .7rem;
+}
+
+#footer hr{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
