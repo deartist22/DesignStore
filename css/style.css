@@ -12,8 +12,13 @@ html {
 	height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, .navbar-brand{
 	font-family: 'Playfair Display', serif;
+}
+
+p, small, .nav-link {
+	font-family: "Lato";
+	color: #a5a4a3;
 }
 
 
@@ -337,5 +342,27 @@ h1, h2, h3, h4, h5, h6{
 		grid-column: 1 / 2; 
 		grid-row: 4 / 5;
 	}
+
+}
+
+#blog .container .icon::before,
+#blog .container .icon::after {
+	content: '';
+	display: inline-block;
+	width: 20%;
+	border-top: 1px solid #212529;
+}
+
+#blog .card {
+	width: 22rem;
+}
+
+#blog p {
+	color: #a5a4a3;
+	font-size: .7rem;
+}
+
+#blog .card .card-body .btn {
+	font-size: .8rem;
 
 }
