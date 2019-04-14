@@ -10,3 +10,9 @@ $(function(){
   })
   
 });
+
+
+const postDate = document.querySelector(".post-date");
+const day = new Date();
+const date = day.toDateString();
+postDate.textContent = date;

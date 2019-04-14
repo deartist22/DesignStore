@@ -367,6 +367,11 @@ p, small, .nav-link {
 
 }
 
+
+#footer {
+	background-color: black;
+}
+
 #footer i {
 	color: gray;
 }
@@ -403,14 +408,15 @@ p, small, .nav-link {
 	font-size: 1rem;
 }
 
-#footer p {
+#footer p,
+#footer span {
 	font-size: .7rem;
 }
 
 #footer hr{
 	border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 #footer .backwhite {
@@ -430,8 +436,4 @@ p, small, .nav-link {
 	position: absolute;
 	top: -3px;
 	left: -1px;
-}
-
-@media only screen and (max-width: 768px) {
-
 }
