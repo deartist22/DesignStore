@@ -1,0 +1,79 @@
+#projects .container-fluid .icon::before,
+#projects .container-fluid .icon::after {
+	content: '';
+	display: inline-block;
+	width: 20%;
+	border-top: 1px solid #212529;
+}
+
+#projects .projects-images {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 700px;
+}
+
+#projects .projects-images .pro1 {
+	background: url(../img/avery-klein-750175-unsplash.jpg) center center no-repeat;	
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	grid-column: 1 / 2; 
+	grid-row: 1 / 2;
+}
+
+#projects .projects-images .pro2 {
+	background: url(../img/stefen-tan-759874-unsplash.jpg) center center no-repeat;	
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	grid-column: 2 / 3; 
+	grid-row: 1 / 2;
+}
+
+#projects .projects-images .pro3 {
+	background: url(../img/hutomo-abrianto-576207-unsplash.jpg) center center no-repeat;	
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	grid-column: 3 / 4; 
+	grid-row: 1 / 2;
+}
+
+#projects .projects-images .pro4 {
+	background: url(../img/kirill-zakharov-630681-unsplash.jpg) center center no-repeat;	
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	grid-column: 4 / 5; 
+	grid-row: 1 / 2;
+}
+
+@media only screen and (max-width: 768px) {
+	#projects .projects-images {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 350px 350px 350px 350px;
+		grid-gap: 10px;
+	}
+
+	#projects .projects-images .pro1 {
+		grid-column: 1 / 2; 
+		grid-row: 1 / 2;
+	}
+
+	#projects .projects-images .pro2 {
+		grid-column: 1 / 2; 
+		grid-row: 2 / 3;
+	}
+
+	#projects .projects-images .pro3 {
+		grid-column: 1 / 2; 
+		grid-row: 3 / 4;
+	}
+
+	#projects .projects-images .pro4 {
+		grid-column: 1 / 2; 
+		grid-row: 4 / 5;
+	}
+
+}

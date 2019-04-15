@@ -1,0 +1,40 @@
+#chooseus {
+	background-color: #181817
+}
+
+#chooseus .container .icon::before,
+#chooseus .container .icon::after {
+	content: '';
+	display: inline-block;
+	width: 20%;
+	border-top: 1px solid #f0b54b;
+}
+
+#chooseus .container .icon .fa-gem{
+	font-size: .8rem;
+}
+
+#chooseus h2,
+#chooseus h3,
+#chooseus .fa-gem {
+	color: #f0b54b;
+}
+
+#chooseus h3 {
+	font-size: 1.1rem;
+}
+
+#chooseus p {
+	font-size: .7rem;
+	color: white;
+}
+
+#chooseus .fa-pencil-alt,
+#chooseus .fa-hammer,
+#chooseus .fa-trade-federation,
+#chooseus .fa-hand-holding-usd {
+	font-size: 3.5rem;
+	padding: 40px 0 0 20px;
+	color: white;
+}
+

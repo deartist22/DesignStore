@@ -1,0 +1,20 @@
+#blog .container .icon::before,
+#blog .container .icon::after {
+	content: '';
+	display: inline-block;
+	width: 20%;
+	border-top: 1px solid #212529;
+}
+
+#blog .card {
+	width: 22rem;
+}
+
+#blog p {
+	color: #a5a4a3;
+	font-size: .7rem;
+}
+
+#blog .card .card-body .btn {
+	font-size: .8rem;
+}
