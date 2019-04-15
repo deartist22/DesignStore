@@ -21,6 +21,11 @@ p, small, .nav-link {
 	color: #a5a4a3;
 }
 
+.navbar {
+	background-color: black;
+	color: white;
+}
+
 
 #mainsection {
 	position: relative;
