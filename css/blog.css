@@ -1,5 +1,5 @@
-#blog .container .icon::before,
-#blog .container .icon::after {
+#blog .icon::before,
+#blog .icon::after {
 	content: '';
 	display: inline-block;
 	width: 20%;
@@ -15,6 +15,12 @@
 	font-size: .7rem;
 }
 
-#blog .card .card-body .btn {
+#blog .btn {
 	font-size: .8rem;
+}
+
+@media only screen and (max-width: 768px) {
+	#blog .card {
+		padding-bottom: 10px;
+	}
 }

@@ -54,8 +54,8 @@
 
 @media only screen and (max-width: 768px) {
 	#designers .design-images {
-		grid-template-columns: 1fr;
-		grid-template-rows: 250px 250px 250px;
+		grid-template-columns: 100%;
+		grid-template-rows: 350px 350px 350px;
 	}
 
 	#designers .design-images .dimages{
