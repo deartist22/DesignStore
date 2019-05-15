@@ -1,69 +1,64 @@
 #designers {
-	position: relative;
-	min-height: 100vh;
+  position: relative;
+  height: 100%;
 }
 
 #designers .background-image {
-	background: url(../img/venveo-609390-unsplash1.jpg) center center no-repeat;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	background-size: cover;
+  background: url(../img/venveo-609390-unsplash1.jpg) center center no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
 }
-
 
 #designers .container .icon::before,
 #designers .container .icon::after {
-	content: '';
-	display: inline-block;
-	width: 20%;
-	border-top: 1px solid #f0b54b;
+  content: "";
+  display: inline-block;
+  width: 20%;
+  border-top: 1px solid #f0b54b;
 }
-
 
 #designers h2,
 #designers h3,
 #designers .fa-gem {
-	color: #f0b54b;
+  color: #f0b54b;
 }
 
 #designers .design-images {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 350px;	
-	grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
 }
 
-#designers .design-images .dimages{
-	position: relative;
+#designers .design-images .dimages {
+  position: relative;
 }
 
 #designers .design-images .design-info {
-	position: absolute;
-	top: 80%;
-	opacity: 0;
-	transition: all 1s ease-in-out;
+  position: absolute;
+  top: 70%;
+  opacity: 0;
+  transition: all 1s ease-in-out;
 }
 
 #designers .design-images img:hover + .design-info {
-	opacity: 1;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 768px) {
-	#designers .design-images {
-		grid-template-columns: 100%;
-		grid-template-rows: 350px 350px 350px;
-	}
+  #designers .design-images {
+    grid-template-columns: 1fr;
+  }
 
-	#designers .design-images .dimages{
-		position: relative;
-	}
+  #designers .design-images .dimages {
+    position: relative;
+  }
 
-	#designers .design-images .design-info {
-		position: absolute;
-		top: 70%;
-	}
+  #designers .design-images .design-info {
+    position: absolute;
+    top: 75%;
+  }
 }
